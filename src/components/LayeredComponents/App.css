@@ -1,0 +1,65 @@
+
+input#taskvalue{
+    border-radius: 5px;
+    border: 1px solid lightgreen;
+    color: black;
+    width: 330px;
+}
+
+#taskvalue:focus {
+
+    border: 1px solid blue;
+    background-color: lightyellow;
+       
+}
+
+ input#taskvalue:hover {
+    border: 1px solid black;  
+       
+}
+ input#btn-add{
+    border-radius: 10px;
+    background-color:lightblue;
+}
+ input#btn-add:hover{
+  
+    background-color: yellow;
+    cursor: pointer;
+}
+.main{
+    align-items: center;
+}
+.App {
+    text-align: center;
+    with:300px;
+}
+.ul{
+    display: block;
+    text-align: center;
+   
+}
+.li {
+    list-style-type: none;
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+}
+
+
+
+.completed-li{
+
+text-decoration-line:line-through;
+}
+.btn-danger{
+    background-color: red;
+    border-radius: 40px;
+    color: white;
+    margin-left: 10px;
+}
+ .checkbox{
+     margin-right: 25px;
+ }
+.hr{
+    align-items: center;
+}
